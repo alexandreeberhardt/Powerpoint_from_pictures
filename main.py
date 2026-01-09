@@ -35,7 +35,7 @@ def add_folder_to_presentation(prs, folder_path):
 
 if __name__ == "__main__":
     output_filename = 'presentation.pptx'
-    source_folders = [r".\dossier1", r".\dossier2", r".\dossier3"]
+    source_folders = [r"./pictures"] # or if you have several folders [r"./pictures1", r"./pictures2", r"./pictures3"]
     
     prs = Presentation()
 
